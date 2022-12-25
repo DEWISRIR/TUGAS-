@@ -1,0 +1,85 @@
+body {
+    background-color: mistyrose;
+    color: Mediumvioletred;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    background-color: #ffb6c0;
+    padding: 50px;
+}
+
+.topnav ul {
+    border: 1px solid none;
+    float: right;
+    width: 100%;
+    background-color: rgb(232, 138, 163);
+    text-align: right;
+}
+.topnav ul li {
+    border: 1px solid none;
+    padding: 24px;
+    display: inline-flex;
+}
+.topnav ul li a {
+    color: mediumvioletred;
+    transition: 0.3s;
+}
+.topnav ul li :hover {
+    color: rgb(255, 232, 236);
+}
+table {
+    padding: 20px;
+}
+#Portofolio img {
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+p {text-align: justify;}
+table ul li{
+    padding: 20px;
+    text-align: justify;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: mediumvioletred;
+}
+
+.footer {
+    background-color: cornsilk;
+    width: 100%;
+    padding: 5px;
+
+}
+.column{
+    float: left;
+    width: 50%;
+    background-color: pink;
+}
+
+input{
+    background-color: #ffe0e4;
+    border: 1;
+    border-color: mediumvioletred;
+}
+textarea {
+    background-color: #ffe0e4;
+    border: 1;
+    border-color: mediumvioletred;
+}
+.submit {
+    padding: 4px;
+    width: 60pxpx;
+    height: 30px;
+    border: 1;
+    border-color: mediumvioletred;
+}
